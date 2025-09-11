@@ -1,0 +1,17 @@
+Ao continuar o projeto Alura Plus, foi necessário atribuir classes para os elementos, possibilitando a estilização de locais específicos. Quando você fez isso comigo, eu citei sobre um padrão de nomenclatura: o Block Element Modifier (BEM). Você pode ler mais sobre isso no artigo “Nome de classes no CSS”, produzido pelo instrutor Yuri Padilha.
+https://www.alura.com.br/artigos/nomes-de-classes-no-css
+
+Para entender melhor sobre o uso de classes e conhecer outro atributo semelhante chamado id, convido você a ler o meu artigo “Qual a diferença entre id e class”.
+https://www.alura.com.br/artigos/qual-diferenca-entre-id-e-class
+
+Apresentei a unidade de medida relativa “em” na criação do botão da página e há muitas além dessa com o mesmo intuito. Para conhecer ou compreender melhor o uso do “em”, você pode consultar o artigo “Guia de unidades no CSS” do instrutor Paulo Scalercio. Esse é um ponto de atenção importantíssimo!
+https://www.alura.com.br/artigos/guia-de-unidades-no-css
+
+Durante o desenvolvimento da primeira seção, também vimos o uso de Grid. Assim como os outros conteúdos, temos um artigo para você reforçar esse aprendizado e consultar quando for preciso. Apresento a você o “Criando layouts com CSS Grid Layout”, produzido pelo Matheus Castiglioni.
+https://www.alura.com.br/artigos/criando-layouts-com-css-grid-layout
+
+Você conheceu uma nova forma de display: o inline-block. Para te ajudar com isso, recomendo a leitura do artigo “Pare de chutar e aprenda como funciona o display: inline-block”, que também tem um vídeo-explicativo.
+https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-display-inline-block-4e6cba2f19d4
+
+Você pode ler sobre pseudo-classes no MDN Web Docs, um projeto colaborativo de código aberto que documenta tecnologias de plataforma da Web, incluindo CSS, HTML, JavaScript e APIs da Web.
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes
