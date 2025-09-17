@@ -33,16 +33,12 @@ O projeto já está finalizado, com as seguintes implementações:
 - [x] Efeitos de hover e pseudo-classes  
 - [x] Deploy no Vercel  
 
----
-
 ## 🚀 Tecnologias utilizadas
 
 - **HTML5**
 - **CSS3**
 - **Figma** (referência do layout)
 - **Vercel** (deploy)
-
----
 
 ## 📂 Como visualizar localmente
 
@@ -66,24 +62,24 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="https://www.linkedin.com/in/juliarichesky/" target=_blanket title="LinkedIn Julia">
-        <img src="icon-julia.jpeg" alt="Foto Julia no GitHub"/><br>
+      <a href="https://www.linkedin.com/in/juliarichesky/" target="_blank" title="LinkedIn Julia">
+        <img src="icon-julia.jpg" width="100" height="100" style="object-fit: cover; border-radius: 50%;" alt="Foto da Julia"/><br>
         <sub>
           <b>Julia Guimarães</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://www.linkedin.com/in/monicamhillman/" title="LinkedIn Mônica">
-        <img src="icon-monica.jpeg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+      <a href="https://www.linkedin.com/in/monicamhillman/" target="_blank" title="LinkedIn Mônica">
+        <img src="icon-monica.jpg" width="100" height="100" style="object-fit: cover; border-radius: 50%;" alt="Foto da Mônica"/><br>
         <sub>
           <b>Mônica Hillman</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://www.alura.com.br/" title="Site Alura">
-        <img src="icon-alura.jpeg" width="100px;" alt="Foto da Alura"/><br>
+      <a href="https://www.alura.com.br/" target="_blank" title="Site Alura">
+        <img src="icon-alura.jpg" width="100" height="100" style="object-fit: cover; border-radius: 50%;" alt="Foto da Alura"/><br>
         <sub>
           <b>Alura</b>
         </sub>
