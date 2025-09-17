@@ -1,70 +1,63 @@
-# README em andamento....
+<div id="user-content-toc" align="left">
+  <ul style="list-style: none;">
+    <summary>
+      <h1>Projeto: Alura Plus</h1>
+    </summary>
+  </ul>
+</div>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/juliarichesky/cursos-alura?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/juliarichesky/cursos-alura?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/juliarichesky/cursos-alura?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/juliarichesky/cursos-alura?style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/juliarichesky/cursos-alura?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/juliarichesky/cursos-alura?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/juliarichesky/cursos-alura?style=for-the-badge)
 
-<img src="imagem.png" alt="Exemplo imagem">
+<img src="imagem-readme.png" alt="imagem header do site" min-width="400px" max-width="400px" width="960px" align="center">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Projeto desenvolvido durante o curso da Alura: **Praticando HTML e CSS**.  
+> O objetivo foi criar uma página responsiva no computador chamada **Alura Plus**, aplicando conceitos de layout, variáveis, boas práticas de CSS e deploy na Vercel.  
 
-### Ajustes e melhorias
+🔗 **Veja o projeto online:** [Alura Plus no Vercel](https://julias-project-aluraplus.vercel.app/)
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
+---
 
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+## 💻 Ajustes e melhorias
 
-## 💻 Pré-requisitos
+O projeto já está finalizado, com as seguintes implementações:
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
+- [x] Estrutura semântica em HTML  
+- [x] Estilização com variáveis no CSS  
+- [x] Responsividade no computador  
+- [x] Efeitos de hover e pseudo-classes  
+- [x] Deploy no Vercel  
 
-- Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-- Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-- Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+---
 
-## 🚀 Instalando <nome_do_projeto>
+## 🚀 Tecnologias utilizadas
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+- **HTML5**
+- **CSS3**
+- **Figma** (referência do layout)
+- **Vercel** (deploy)
 
-Linux e macOS:
+---
 
+## 📂 Como visualizar localmente
+
+Se quiser clonar o projeto e rodar localmente:
+
+```bash
+# Clonar o repositório
+git clone https://github.com/juliarichesky/cursos-alura.git
+
+# Entrar na pasta do projeto
+cd cursos-alura/html-e-css/curso-praticando-html-e-css/projeto-alura-plus
+
+# Abrir o arquivo no navegador
+index.html
 ```
-<comando_de_instalação>
-```
-
-Windows:
-
-```
-<comando_de_instalação>
-```
-
-## ☕ Usando <nome_do_projeto>
-
-Para usar <nome_do_projeto>, siga estas etapas:
-
-```
-<exemplo_de_uso>
-```
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Forneça uma referência de opções para pontos de bônus!
-
-## 📫 Contribuindo para <nome_do_projeto>
-
-Para contribuir com <nome_do_projeto>, siga estas etapas:
-
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
-
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## 🤝 Colaboradores
 
@@ -73,36 +66,28 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#" title="defina o título do link">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+      <a href="https://www.linkedin.com/in/juliarichesky/" target=_blanket title="LinkedIn Julia">
+        <img src="icon-julia.jpeg" alt="Foto Julia no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Julia Guimarães</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="#" title="defina o título do link">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+      <a href="https://www.linkedin.com/in/monicamhillman/" title="LinkedIn Mônica">
+        <img src="icon-monica.jpeg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
+          <b>Mônica Hillman</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="#" title="defina o título do link">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+      <a href="https://www.alura.com.br/" title="Site Alura">
+        <img src="icon-alura.jpeg" width="100px;" alt="Foto da Alura"/><br>
         <sub>
-          <b>Steve Jobs</b>
+          <b>Alura</b>
         </sub>
       </a>
     </td>
   </tr>
 </table>
-
-## 😄 Seja um dos contribuidores
-
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
-
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
