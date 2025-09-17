@@ -21,7 +21,7 @@ body {
 }
 
 .principal {
-    background-image: url("/html-e-css/curso-praticando-html-e-css/projeto-alura-plus/imagens/background-cabecalho.png");
+    background-image: url("/imagens/background-cabecalho.png");
     background-repeat: no-repeat;
     background-size: contain; /*contain é a section*/
     align-items: center;
