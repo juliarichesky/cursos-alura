@@ -1,0 +1,33 @@
+<!--
+5) Personalizando links com pseudo classes CSS
+Você está trabalhando em um projeto web e decidiu adicionar interatividade visual aos links no footer do site. Sua tarefa é utilizar pseudo classes CSS para mudar a cor dos links no footer quando o usuário passa o mouse sobre eles (hover) e quando estão sendo clicados (active). Utilize as cores e o CSS fornecido no relato para implementar esses efeitos.
+!-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Plus</title>
+    <style>
+        a {
+            color: rgb(135, 235, 21);
+            font-size: 48px;
+            text-decoration: none;
+            display: flex;
+        }
+        .link__hover:hover {
+            color: rgb(69, 2, 194);
+            transition: 0.5s;
+        }
+        .link__active:active {
+            color: rgb(255, 0, 234);
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <a class="link__hover" href="#">Link 1</a>
+        <a class="link__active" href="#">Link 2</a>
+    </footer>
+</body>
+</html>

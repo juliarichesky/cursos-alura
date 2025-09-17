@@ -1,0 +1,41 @@
+<!--
+6) Criando efeitos visuais em botões com variáveis CSS
+Neste desafio, você vai aprimorar a interatividade dos botões no seu projeto web. Utilize a pseudo classe :hover para alterar a cor de fundo dos botões quando o usuário passa o mouse sobre eles. Para isso, crie uma variável CSS chamada --botao-azul-efeito e defina uma nova cor para ela. Em seguida, aplique esta cor ao fundo dos botões quando o mouse estiver sobre eles, mantendo a cor do texto adequada para garantir a legibilidade.
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Plus</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        :root {
+            --branco-principal: #fff;
+            --preto-principal: #000;
+            --botao-azul-efeito: #4805b3;
+            --efeito-hover: #09eeee;
+        }
+
+        .container__botao {
+            background-color: var(--botao-azul-efeito);
+            color: var(--branco-principal);
+            padding: 10px;
+            display: inline-block;
+            border-radius: 9px;
+        }
+        .container__botao:hover {
+            background-color: var(--efeito-hover);
+            color: var(--preto-principal);
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <a href="google.com.br">
+        <p class="container__botao">Clique aqui</p>
+    </a>
+</body>
+</html>

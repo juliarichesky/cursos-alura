@@ -1,0 +1,54 @@
+<!-- 
+2) Estilizando a lista de dispositivos
+Agora que você criou a estrutura HTML da seção de dispositivos, seu próximo passo é estilizá-la usando CSS. Você precisa garantir que a seção esteja centralizada, que os itens da lista estejam dispostos lado a lado usando flexbox, e que a tipografia e os espaçamentos estejam de acordo com o design proposto no Figma. Lembre-se de remover os estilos padrão da lista e ajustar os tamanhos de fonte para o título e os nomes dos dispositivos.
+!--> 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Plus</title>
+    <style>
+        
+body {
+    background-color: black;
+}
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.dispositivos__lista h3 {
+    font-size: 32px;
+    color: #ffffff;
+}
+    </style>
+</head>
+<body>
+    <section class="dispositivos">
+        <h2 class="dispositivos__titulo">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="dispositivos__lista">
+            <li>
+                <img src="/projeto-alura-plus/imagens/tv.png" alt="Ícone de televisão">
+                <h3>TV</h3>
+            </li>
+            <li>
+                <img src="/projeto-alura-plus/imagens/computador.png" alt="Ícone de computador">
+                <h3>Computadores</h3>
+            </li>
+            <li>
+                <img src="/projeto-alura-plus/imagens/celular.png" alt="Ícone de celular">
+                <h3>Celulares</h3>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>

@@ -21,7 +21,7 @@ body {
 }
 
 .principal {
-    background-image: url("/alura-plus/imagens/background-cabecalho.png");
+    background-image: url("/projeto-alura-plus/imagens/background-cabecalho.png");
     background-repeat: no-repeat;
     background-size: contain; /*contain é a section*/
     align-items: center;
@@ -149,5 +149,5 @@ body {
 .container__botao:hover {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
-    transition: 0.4s;
+    transition: 0.7s;
 }

@@ -1,0 +1,55 @@
+<!--
+4) Estilizando o footer com CSS
+Agora que você já construiu o HTML do rodapé, chegou a hora de estilizá-lo com CSS. Use as habilidades que você aprendeu nas aulas anteriores para:
+
+4.1. Centralizar o conteúdo do footer na página.
+4.2. Alinhar os itens da lista de links lado a lado, em vez de um abaixo do outro.
+4.3. Alterar o tamanho e a cor da fonte dos links e dos textos de copyright.
+4.4. Remover a decoração (sublinhado) dos links.
+4.5. Aplicar qualquer outro estilo que você achar que melhorará a aparência do rodapé.
+!-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Plus</title>
+    <style>
+body {
+    background-color: black;
+}
+.rodape {
+    text-align: center;
+}
+ .rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  .lista__link {
+    margin: 0 10px;
+  }
+  .rodape__lista a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .rodape__texto {
+    color: #ffffff;
+    font-size: 14px;
+  }
+    </style>
+</head>
+<body>
+    <footer class="rodape">
+        <img src="/projeto-alura-plus/imagens/logo.png" alt="Logo Alura Plus" class="rodape__logo">
+        <ul class="rodape__lista">
+            <li class="lista__link"><a href="google.com.br">Link 1</a></li>
+            <li class="lista__link"><a href="google.com.br">Link 2</a></li>
+            <li class="lista__link"><a href="google.com.br">Link 3</a></li>
+        </ul>
+        <p class="rodape__texto">* 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados...</p>
+        <p class="rodape__texto">Alura+ é um serviço pago, baseado em assinatura...</p>
+    </footer>
+</body>
+</html>
