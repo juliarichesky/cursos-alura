@@ -1,0 +1,7 @@
+você pode publicar esse projeto no github através das páginas do próprio github. para fazer isso:
+
+✔️ acesse o repositório
+✔️ clique em "settings"
+✔️ clique em "pages"
+✔️ em branch, escolha "main" e salve
+✔️ o link da página aparecerá em cima
