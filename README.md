@@ -20,3 +20,4 @@ this repository brings together all the material produced throughout my studies 
 
 - <a href="https://github.com/juliarichesky/cursos-alura/tree/main/html-e-css/curso-praticando-html-e-css">HTML and CSS: practicing HTML/CSS</a>
 - <a href="https://github.com/juliarichesky/cursos-alura/tree/main/iniciante-programacao">Programming Logic: Dive into Programming with JavaScript</a>
+- <a href="https://github.com/juliarichesky/cursos-alura/tree/main/java-criando-primeira-aplicacao">Java: Creating your First Application</a>
