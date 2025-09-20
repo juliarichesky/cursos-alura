@@ -1,0 +1,167 @@
+JVM (Java Virtual Machine) - é a Máquina Virtual do Java responsável por executar o bytecode;
+JRE (Java Runtime Environment) - Ambiente de Execução do Java que fornece as bibliotecas padrões do Java para o JDK compilar o seu código e para a JVM executar o seu programa;
+JDK (Java Development Kit) - Kit de Desenvolvimento Java responsável por compilar código-fonte em bytecode.
+WORA: Write Once, Run Anywhere
+
+processo de compilação:
+
+antigamente:
+código fonte => compilador => executável pra windows
+código fonte => compilador => executável pra linux
+código fonte => compilador => executável pra mac
+antigamente, você precisava compilar tudo manualmente, para cada sistema operacional
+
+hoje:
+código java => compilador java => bytecode/.class => JVM => windows
+código java => compilador java => bytecode/.class => JVM => linux
+código java => compilador java => bytecode/.class => JVM => mac
+hoje, você compila apenas uma vez e o JVM que se vira para compilar para os sistemas operacionais
+
+-------------------------------------------------------------------------
+*Padrão CascalCase: a classe com nome composto utilizando letras maiúsculas e minúsculas, exemplo: MainMenu
+
+Convenções de código influenciam na legibilidade do código. Definido pela Oracle.
+
+variável = armazena valores
+sempre inicia com letra minúscula
+pode usar letra maiúscula em nome composto, exemplo: anoDeLancamento
+(padrão camelCase)
+
+classes inicia com letra maiuscula
+= é de atribuição
+concatenação => string + variável
+sempre que termina uma instrução, usa-se ponto e virgula ;
+para fazer comentário no código: //
+
+---- TIPOS PRIMITIVOS
+int = valores números inteiros de 32 bits. -2.147.648 a 2.147.647.
+boolean = verdadeiro ou falso, usado em condicionais, loop, etc.
+byte = valores numéricos inteiros de 8 bits. de -128 a 127.
+char = caracteres individuais. representado por "
+short = valores númericos inteiros de 16 bits. de -32.768 a 32.767.
+long = valores numéricos inteiros de 64 bits. de -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807.
+float = valores numéricos de ponto flutuante, ou seja, valores com casas decimais, sendo que ocupa 32 bits de memória. ele pode representar números decimais com até sete dígitos e tem uma precisão limitada, o que significa que ele pode arredondar os números se eles forem muito grandes ou muito pequenos.
+double = similar ao float, ocupa 64 bits. números decimais de até 15 dígitos.
+
+constantes são com letras maiúsculas e separadas por underline
+métodos inicia com letra maiúscula e usar camelCase
+---------------------------------------------------------------------------
+
+Operadores aritméticos:
+Os operadores aritméticos são usados para realizar operações matemáticas básicas. São eles:
+
+"+" (adição)
+"-" (subtração)
+"*" (multiplicação)
+"/" (divisão)
+"%" (resto da divisão)
+
+int a = 10 + 5; // Atribui o valor 15 à variável a
+int b = 10 - 5; // Atribui o valor 5 à variável b
+int c = 10 * 5; // Atribui o valor 50 à variável c
+int d = 10 / 5; // Atribui o valor 2 à variável d
+int e = 10 % 3; // Atribui o valor 1 à variável e (o resto da divisão de 10 por 3 é 1)
+
+-------------------------------------------------------------------------
+
+Operadores relacionais:
+Os operadores relacionais são usados para comparar valores. Eles retornam um valor booleano (verdadeiro ou falso). Trabalharemos melhor com eles quando estivermos na aula de condicionais, onde vamos modificar o fluxo da aplicação dada alguma condição. São eles:
+
+"==" (igual a)
+"!=" (diferente de)
+">" (maior que)
+">=" (maior ou igual a)
+"<" (menor que)
+"<=" (menor ou igual a)
+
+int a = 10; // Atribui o valor 10 à variável a
+int b = 5; // Atribui o valor 5 à variável b
+int c = 30; // Atribui o valor 30 à variável c
+
+boolean igual = (b == a); //Nesse caso a variável igual ficará com o valor *false*, pois o valor de b não é igual o valor de a.
+boolean diferente = (b != c); //A variável diferente ficará com o valor *true*, pois o valor de b é diferente do valor de c.
+boolean maior = (b > a); //A variável maior ficará com o valor *false*, pois o valor de b é menor que o valor de a.
+boolean menorIgual = (b <= c); //A variável menorIgual ficará com o valor *true*, pois o valor de b é menor que o valor de c.
+
+-------------------------------------------------------------------
+
+Operadores lógicos:
+Esses operadores são usados quando queremos verificar duas ou mais condições e/ou expressões na aplicação. Eles fazem a comparação de valores booleanos e retornam também um resultado booleano.
+
+São três operadores: AND (&&), OR (||) e NOT (!).
+
+O operador AND (&&), que traduzindo para o português seria o E, é usado para verificar se duas condições são verdadeiras. Se ambas as condições forem verdadeiras, o resultado será verdadeiro. Caso contrário, o resultado será falso. Aqui está um exemplo:
+
+boolean a = true;
+boolean b = false;
+if (a && b) {
+   // Este código não será executado, já que a é verdadeiro e b é falso.
+}
+
+O operador OR (||), que traduzindo para o português seria o OU, é usado para verificar se pelo menos uma das condições é verdadeira. Se pelo menos uma das condições for verdadeira, o resultado será verdadeiro. Caso contrário, o resultado será falso. Aqui está um exemplo:
+
+boolean a = true;
+boolean b = false;
+if (a || b) {
+   // Este código será executado, já que a é verdadeiro, mesmo que b seja falso.
+}
+
+O operador NOT (!) é usado para negar uma condição. Se a condição for verdadeira, o resultado será falso. Se a condição for falsa, o resultado será verdadeiro. Aqui está um exemplo:
+
+boolean a = true;
+if (!a) {
+   // Este código não será executado, já que a é verdadeiro.
+}
+
+-------------------------------------------------------------------------
+
+Operadores de incremento:
+
+Além dos operadores citados anteriormente, o operador de incremento é usado para aumentar o valor de uma variável em 1. Existem dois tipos de operadores de incremento: o operador de pré-incremento (++variavel) e o operador de pós-incremento (variavel++).
+
+O operador de pré-incremento (++variavel) aumenta o valor da variável em 1 antes de usar a variável em uma expressão. Aqui está um exemplo:
+
+int num = 5;
+int resultado = ++num; //num é incrementado para 6 e depois atribuído a resultado
+System.out.println(num); // imprime 6
+System.out.println(resultado); // imprime 6
+
+Já o operador de pós-incremento (variavel++) aumenta o valor da variável em 1 depois de usar a variável em uma expressão. Aqui está um exemplo:
+
+int num = 5;
+int resultado = num++; //num é atribuído primeiramente à variável resultado e depois incrementado para 6
+System.out.println(num); // imprime 6
+System.out.println(resultado); // imprime 5
+
+*É como se o ++ na frente significasse "Aumenta agora!" e o ++ atrás significasse "Aumenta depois!*
+
+-------------------------------------------------------------------------
+
+em somas, por exemplo, precisamos colocar entre parênteses aquela soma que queremos que venha primeiro.
+
+double media = (9.8 + 6.3 + 8.0) /3;
+        System.out.println(media);
+
+-------------------------------------------------------------------------
+
+String é a classe que se usa para escrever textos, como se fosse um h1, p.
+
+String sinopse;
+sinopse = "Filme de aventura com galã dos anos 80";
+sinopse = """
+        Filme Top Gun
+        Filme de aventura com galã dos anos 80
+        Muito bom!
+        Ano de Lançamento
+        """ + anoDeLancamento;
+	System.out.println(sinopse);
+	}
+
+-- aqui usamos a classe String
+-- valor sinopse
+-- sinopse = todos os textos dentro da string
+-- text block = """ e """
+-- + anoDeLancamento é uma atribuição da variável
+-- soat é o print de tudo isso
+
+*.md; *.txt; *.rst; *.adoc
