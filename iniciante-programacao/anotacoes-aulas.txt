@@ -1,0 +1,64 @@
+no javascript, para identificar que terminou o comando, usamos ; (ponto e virgula)
+
+variáveis = espaço na memória do computador, onde guardamos informações que vamos usar mais tarde. armazenar determinado valor (let)
+
+// Guarda o nome de uma pessoa
+let nome = "Ana";
+
+// Guarda a idade
+let idade = 25;
+
+// Guarda um valor de saldo
+let saldoDisponivel = 1000;
+
+*toda variavel tem um nome, um sinal de igual e um valor.
+
+os nomes que atribuimos as variaveis precisam ser claros!
+
+nao usamos aspas em numeros nas variaveis, pois as aspas o javascript entende como texto.
+
+função = alert() Ela serve para mostrar uma mensagem na tela, em forma de uma pequena janela de aviso. É uma forma de visualizar se o código está funcionando.
+função = prompt() Ele mostra uma caixinha no navegador e espera a pessoa digitar alguma coisa. perguntar algo ao usuário.
+
+// Pede o nome da pessoa e guarda na variável
+let nomeUsuario = prompt("Digite seu nome");
+
+// Pede a idade da pessoa e guarda na variável
+let idadeUsuario = prompt("Digite sua idade");
+
+condiçao = if (se)
+condiçao = else (senao)
+
+comparação ==
+atribuição =
+=== é um operador de comparação. Ele serve para verificar se dois valores são iguais.
+
+as regras de uma linguagem são chamadas da sintaxe. No JavaScript, a ordem, os símbolos e até a pontuação são importantes.
+
+exemplo:
+
+let temPao = prompt("Você tem pão em casa? Responda com sim ou não");
+
+if (temPao === "sim") {
+    alert("Fazer sanduíche");
+} else {
+    alert("Fazer miojo");
+}
+
+Nesse exemplo:
+
+- Usamos prompt() para perguntar algo à pessoa usuária.
+- A resposta é armazenada na variável temPao.
+- O if verifica se a resposta foi "sim". O === é um operador de comparação. Ele serve para verificar se dois valores são iguais.
+- Se for, mostramos uma mensagem. Caso contrário, mostramos outra com o else.
+- Além do ===, também temos outros operadores de comparação que são bastante utilizados no dia a dia de desenvolvimento:
+> maior que
+< menor que
+>= maior ou igual
+<= menor ou igual
+=== igual a (valor e tipo)
+
+usamos // para fazer comentarios no codigo.
+
+console.log é uma ferramenta para desenvolvimento, e nao para usuarios!!
+quando estamos usando uma variavel dentro de console log, nao usa aspas, se nao vira texto.
