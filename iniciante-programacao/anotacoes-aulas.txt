@@ -60,5 +60,17 @@ Nesse exemplo:
 
 usamos // para fazer comentarios no codigo.
 
-console.log é uma ferramenta para desenvolvimento, e nao para usuarios!!
-quando estamos usando uma variavel dentro de console log, nao usa aspas, se nao vira texto.
+=> console.log é uma ferramenta para desenvolvimento, e nao para usuarios!!
+=> quando estamos usando uma variavel dentro de console log, nao usa aspas, se nao vira texto.
+
+acoplamento => no contexto da aula, refere-se a quando diferentes partes do código estão muito interligadas.
+template strings => é uma forma de concatenar strings e variáveis de forma mais legível e eficiente em JavaScript.
+
+na aula, os instrutores explicam que, em vez de usar aspas simples ('...') para criar uma string, você usa crases (`...`). dentro da string, você pode inserir o valor de uma variável usando a sintaxe ${nomeDaVariavel}. lembre-se do $ e das chaves {}
+
+ou seja:
+em vez de usar isso
+alert('Isso ai! Você descobriu o número secreto ' + numeroSecreto);
+
+fica assim
+alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto}`);
