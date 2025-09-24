@@ -17,7 +17,7 @@ public class Main {
         double notaDoFilme = 8.1;
         //Média calculada em tres notas
         double media = (9.8 + 6.3 + 8.0) /3;
-        System.out.println(media);
+        System.out.println("Média do filme: " + media);
         String sinopse;
         sinopse = """
                 Filme Top Gun
