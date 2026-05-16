@@ -1,5 +1,5 @@
 # 🎓 alura courses ♡
-this repository brings together all the material produced throughout my studies on the alura platform.
+this repository brings together all the material produced throughout my studies on the alura platform. ✨
 <br><br>
 <img src="https://meuempregonovo.com.br/wp-content/uploads/2024/05/Alura-1-2.jpg" alt="ilustração logo alura" min-width="400px" max-width="400px" width="910px" align="center">
 ## 📚 what you'll find here
